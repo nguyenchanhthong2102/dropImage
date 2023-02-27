@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    display:grid;
+    align-items:center;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+    gap:10px;
+    margin-top:100px;
+}
+.container .box{
+width:200px;
+height:155px;
+border:2px solid #000;
+}
+.image img{
+    width:100%;
+}
+.box.hug{
+    border:2px dashed #000;
+}
